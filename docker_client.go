@@ -37,7 +37,7 @@ func tlsEnabled(tlsCert, tlsCaCert, tlsKey string) bool {
 type DockerContainer struct {
 }
 
-// based off of https://github.com/dotcloud/docker/blob/2a711d16e05b69328f2636f88f8eac035477f7e4/utils/utils.go
+// parseHost; based off of https://github.com/dotcloud/docker/blob/2a711d16e05b69328f2636f88f8eac035477f7e4/utils/utils.go
 func parseHost(addr string) (string, string, error) {
 
 	var (
